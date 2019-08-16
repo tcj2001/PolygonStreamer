@@ -1,5 +1,5 @@
 # PolygonStreamer
-This is a temporary replacement to get streaming data form polygon api, while streamconn get fixed.
+This is a temporary replacement to get streaming data from polygon api, while streamconn get fixed.
 
 Define or Import the class provided in the source
 usage:
