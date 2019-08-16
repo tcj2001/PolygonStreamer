@@ -31,7 +31,8 @@ if __name__ == "__main__":
     conn.runme('Q.*,T.*,A.*,AM.*')
 
 ################################################################################################    
-This also automatically recovers from connection closed error
+This also automatically recovers from connection closed error as shown below
+
 Quote [{'ev': 'Q', 'sym': 'GLPG', 'c': 1, 'bx': 12, 'ax': 12, 'bp': 171.82, 'ap': 172.05, 'bs': 2, 'as': 3, 't': 1565958503394, 'z': 3}]
 Quote [{'ev': 'Q', 'sym': 'GLPG', 'c': 1, 'bx': 12, 'ax': 12, 'bp': 171.82, 'ap': 172.04, 'bs': 2, 'as': 1, 't': 1565958503401, 'z': 3}]
 [WinError 10054] An existing connection was forcibly closed by the remote host
