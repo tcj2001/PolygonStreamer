@@ -69,7 +69,7 @@ class polygonStream(object):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     
-    conn = polygonStream('AKSUG6JSSYD2DP63REQN') #live key
+    conn = polygonStream('pass_your_key_here') #live key
 
     @conn.on('A')
     def handle_messages(conn,channel,message):
