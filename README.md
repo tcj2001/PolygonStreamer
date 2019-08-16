@@ -1,8 +1,10 @@
 # PolygonStreamer
 This is a temporary replacement to get streaming data form polygon api, while streamconn get fixed.
 
-
 Define or Import the class provided in the source
+
+
+
 usage:
 if __name__ == "__main__":
     conn = polygonStream('pass_Your_key_here') 
